@@ -1,0 +1,29 @@
+# Ambiente e credenziali
+.env
+credentials.json
+token.json
+
+# File intermedi (sempre rigenerabili)
+.tmp/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Node.js (se presente frontend)
+node_modules/
+.next/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
