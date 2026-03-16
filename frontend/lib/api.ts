@@ -1,4 +1,3 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "/api";/**
  * API Client — Gestisce tutte le chiamate al backend FastAPI.
  * Centralizza autenticazione, error handling e base URL.
  */

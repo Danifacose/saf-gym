@@ -106,3 +106,4 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  GET /dashboard/subscription 200 in 30ms (compile: 6ms, render: 24ms)
 ✓ Compiled in 178ms
 ✓ Compiled in 57ms
+✓ Compiled in 116ms
