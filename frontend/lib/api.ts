@@ -1,3 +1,4 @@
+/**
  * API Client — Gestisce tutte le chiamate al backend FastAPI.
  * Centralizza autenticazione, error handling e base URL.
  */

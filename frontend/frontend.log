@@ -107,3 +107,14 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
 ✓ Compiled in 178ms
 ✓ Compiled in 57ms
 ✓ Compiled in 116ms
+✓ Compiled in 187ms
+ GET /admin 200 in 221ms (compile: 148ms, render: 74ms)
+ GET /admin 200 in 54ms (compile: 1776µs, render: 53ms)
+ GET /admin 200 in 42ms (compile: 3ms, render: 39ms)
+ GET /admin 200 in 40ms (compile: 1798µs, render: 38ms)
+ GET /admin 200 in 41ms (compile: 1062µs, render: 40ms)
+ GET /admin 200 in 42ms (compile: 2ms, render: 40ms)
+ GET /admin 200 in 41ms (compile: 1087µs, render: 40ms)
+ GET /admin 200 in 32ms (compile: 1728µs, render: 30ms)
+ GET /admin 200 in 22ms (compile: 1285µs, render: 21ms)
+ GET /admin 200 in 11ms (compile: 974µs, render: 10ms)
