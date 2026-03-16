@@ -1,10 +1,9 @@
-/**
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "/api";/**
  * API Client — Gestisce tutte le chiamate al backend FastAPI.
  * Centralizza autenticazione, error handling e base URL.
  */
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "/api";
-
+const API_BASE = "https://saf-gym.onrender.com";
 // ── Helper ───────────────────────────────────────────
 
 function getToken(): string | null {
