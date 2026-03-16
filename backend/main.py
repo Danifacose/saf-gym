@@ -1,3 +1,4 @@
+
 """
 Saf Gym — Backend FastAPI
 Entry point: avvia il server, configura CORS, include i router.
@@ -18,7 +19,19 @@ app = FastAPI(
     description="API per la gestione della palestra Saf Gym",
     version="1.0.0",
 )
+from fastapi.middleware.cors import CORSMiddleware
 
+origins = [
+    "https://saf-gym-1fn5.vercel.app",
+    "http://localhost:3000"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 # ── CORS (permetti al frontend Next.js di comunicare) ─
 app.add_middleware(
     CORSMiddleware,
